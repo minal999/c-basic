@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace simpleDemo
 {
-    internal class Program
+    internal class firstProgram
     {
         static void Main(string[] args)
         {

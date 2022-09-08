@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>simpleDemo.ConditionalStmt</StartupObject>
+    <StartupObject>simpleDemo.factorial</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConditionalStmt.cs" />
+    <Compile Include="factorial.cs" />
+    <Compile Include="fibonacci.cs" />
+    <Compile Include="forloop.cs" />
+    <Compile Include="forloopassgmt.cs" />
+    <Compile Include="gretestof3.cs" />
+    <Compile Include="leapyear.cs" />
+    <Compile Include="OddEven.cs" />
     <Compile Include="oparators.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="firstProgram.cs" />
+    <Compile Include="pattern1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="switchcalculator.cs" />
+    <Compile Include="Vowel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

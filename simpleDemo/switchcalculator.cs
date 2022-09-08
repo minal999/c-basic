@@ -6,62 +6,19 @@ using System.Threading.Tasks;
 
 namespace simpleDemo
 {
-    internal class ConditionalStmt
+    internal class switchcalculator
     {
         static void Main(string[] args)
-        {/*
-            //even or odd number
-            Console.WriteLine($"enter the number ");
-            int a = Convert.ToInt32(Console.ReadLine());
-            
-            if(a%2==0)
-            {
-                Console.WriteLine($"the given number is even number");
-
-            }
-            else
-            {
-                Console.WriteLine($"The given number is odd number");
-            }
-            
-            //leap year or not
-            Console.WriteLine($"enter the year ");
-            int year = ConvertToInt32(Console.ReadLine());
-            if (year%4==0)
-            {
-                Console.WriteLine($"given year is leap year");
-            }
-            else
-            {
-                Console.WriteLine($"given year is not a leap year");
-            }*/
-
-            //check given character is vowel or consonant
-
-            //Console.WriteLine($"Enter the character ");
-            //char c = Convert.ToChar(Console.ReadLine());
-            //if(c=='a'|| c == 'e' || c == 'i' || c == 'o' || c == 'u' )
-            //{
-            //    Console.WriteLine($"The given character is vowel");
-            //}
-            //else
-            //{
-            //    Console.WriteLine($"The given character is consonant");
-            //}
-
-
-
-            //check the greatest of  numbers with nested if
-
+        {
 
             //ask for two numbers and perform operations
-            //1.add 2.sub 3.multi 4.div
+            //1.add 2.sub 3.multi 4.div 5.mod
 
             Console.WriteLine($"enter the first number ");
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"enter the second number ");
             int num2 = Convert.ToInt32(Console.ReadLine());
-            
+
             Console.WriteLine("select the operation ");
             Console.WriteLine("1.Addition");
             Console.WriteLine("2.Subtraction");
@@ -72,7 +29,7 @@ namespace simpleDemo
             switch (result)
             {
                 case 1:
-                    Console.WriteLine($"Addition of numbers is {num1+num2}");
+                    Console.WriteLine($"Addition of numbers is {num1 + num2}");
                     break;
 
                 case 2:
@@ -92,6 +49,5 @@ namespace simpleDemo
                     break;
             }
         }
-
-        }
+    }
 }
