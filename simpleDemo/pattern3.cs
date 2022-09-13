@@ -10,7 +10,13 @@ namespace simpleDemo
     {
         static void Main(string[] args)
         {
-            for(char i = 'A'; i <= 'E'; i++)
+            //A
+            //AB
+            //ABC
+            //ABCD
+            //ABCDE
+
+            for (char i = 'A'; i <= 'E'; i++)
             {
                 for(char j = 'A'; j <= i; j++)
                 {

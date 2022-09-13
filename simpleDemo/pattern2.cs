@@ -10,15 +10,20 @@ namespace simpleDemo
     {
         static void Main(string[] args)
         {
-            for (int i = 5; i >= 1; i--)
+            //54321
+            //5432
+            //543
+            //54
+            //5
+
+            for (int i = 1; i <= 5; i++)
             {
-                for (int j = i; j >=1; j--)
+                for (int j = 5; j >=i; j--)
                 {
                     Console.Write(j);
                     
                 }
                 Console.WriteLine();
-
             }
 
         }

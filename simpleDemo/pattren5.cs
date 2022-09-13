@@ -10,15 +10,14 @@ namespace simpleDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the number ");
-            int x = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i <= x; i++)
+
+            for (int i = 1; i <= 4; i++)
             {
-                for (int j = 1; j <= (x - i); j++)
+                for (int j = 4; j>=i; j--)
                     Console.Write(" ");
 
-                for (int k = 1; k < i * 2; k++)
-                    Console.Write("*");
+                for (int k = 1; k <=i; k++)
+                    Console.Write(" *");
                 Console.WriteLine();
             }
             
